@@ -1,0 +1,60 @@
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 3em;
+}
+
+h1
+{
+    font-size: 15pt;
+}
+
+h2
+{
+    font-size: 12pt;
+}
+
+input 
+{
+    border: 1px solid black;
+    height: 1.4em;
+}
+input[type="button"]
+{
+width: 5em;
+height: 1.4em;
+background: rgb(55, 55, 126);
+float: right;
+color: white;
+}
+
+#Add_Emp td
+{
+padding-right: 3em;
+}
+
+#display_table td, th 
+{
+    border: 1px solid white;
+    width: 9em;
+    text-align: center;
+}
+
+#display_table th
+{
+    background: rgb(55, 55, 126);
+    color: white;
+}
+
+#display_table tr:nth-child(even)
+{
+    background: rgb(191, 191, 211);
+}
+#display_table tr:nth-child(odd)
+{
+    background: rgb(239, 239, 245);
+}
+#name_e, #title_e, #ext_e
+{
+    color: red;
+}
